@@ -1,0 +1,32 @@
+.normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+.praymary_style{
+   color: #FD6E0A;
+}
+.dark_2{
+    color: #474747;
+}
+nav{
+    display:flex;
+ }
+.nav_title{
+    font-weight:800px;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+}
+
+ nav li{
+    list-style: none;
+ 
+ }
+ nav li a{
+    text-decoration: none;
+    font-size: 20px;
+ }
