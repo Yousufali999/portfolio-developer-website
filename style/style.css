@@ -22,6 +22,9 @@
 .dark_3{
     color: #757575 ;
 }
+.shairy-bg{
+    background-color: #FFF8F3;
+}
 
 nav{
     display:flex;
@@ -84,4 +87,29 @@ nav ul{
  .banner-img{
     max-width: 580px;
  }
-  
+
+
+ /* Main style  */
+.main_section{
+    max-width: 1140px;
+    margin: 0px auto;
+ }
+ .about-content{
+    text-align: center;
+    padding: 131px 156px;
+    margin-top:130px ;
+ }
+ .about-titl{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+ }
+
+ .item-title{
+    display: flex;
+    justify-content: space-around;
+ }
+ .tem-description{
+    font-weight: bold;
+    font-size: 20px;
+ }
