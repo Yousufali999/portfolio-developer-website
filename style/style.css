@@ -5,28 +5,83 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;}
+
+
+    /* navber style */
+.header_section{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:top left,bottom right;
+}
 .praymary_style{
    color: #FD6E0A;
 }
 .dark_2{
     color: #474747;
 }
+.dark_3{
+    color: #757575 ;
+}
+
 nav{
     display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px 0px 190px;
+     
  }
 .nav_title{
     font-weight:800px;
     font-size: 45px;
 }
+.butt_parmry{
+   font-size: 20px; 
+   font-weight: bold;
+   color:#FFFFFF ;
+   background-color:#FD6E0A;
+   border:none ;
+   padding: 19px 35px;
+   border-radius: 5px;
+   cursor: pointer;
+
+
+}
 nav ul{
     display: flex;
+    align-items: center;
 }
 
  nav li{
     list-style: none;
+    margin-right: 60px;
  
  }
  nav li a{
     text-decoration: none;
     font-size: 20px;
  }
+
+ /* Baner_Style */
+ .baner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 40px 0px 190px;
+ }
+.baner_content{
+    max-width:479px ;
+}
+
+ .baner_title{
+    font-size: 45px;
+    font-weight: 600px;
+    
+ }
+ .baner_getting{
+    font-size: 85px;
+    font-weight: bold;
+ }
+ .banner-img{
+    max-width: 580px;
+ }
+  
