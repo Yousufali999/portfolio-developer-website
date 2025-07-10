@@ -27,7 +27,8 @@
 .main-container-title{
     font-size: 35px;
     font-weight: bold;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
+    text-align: center;   
 }
 
 nav{
@@ -100,6 +101,7 @@ nav ul{
     text-align: center;
     padding: 131px 156px;
     margin-top:130px ;
+    border-radius: 10px;
  }
  .about-title{
     font-size: 35px;
@@ -138,7 +140,34 @@ nav ul{
 }
 .skill-item{
    max-width: 267px;
-   box-shadow:0px 8px 50px 0px #7c7474;
+   box-shadow:0px 8px 50px 0px #dfd8d8;
    padding: 30px 33px;
    border-radius: 10px;
+}
+
+/* Summary_Content  */
+.All_summmary{
+   margin-top:130px;
+}
+.Summary_content{
+   display:  flex;
+   gap: 50px;
+}
+.education_title,.experience-title {
+   font-size: 30px;
+   font-weight: bold;
+   color: #474747;
+}
+.exprience_name,.education_name{
+   font-size: 25px;
+   font-weight: bold;
+   color: #474747;
+}
+.nu-experince,.Un-name{
+   font-size: 20px;
+   font-weight: bold;
+   color: #757575;
+}
+.experince-deriction,.education_decription{
+   color:#757575 ;
 }
