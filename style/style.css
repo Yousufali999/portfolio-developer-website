@@ -271,5 +271,14 @@ textarea{
     .banner-img {
       width: 100%;
     }
+   nav ul> li{
+      margin-bottom: 10px;
+   }
+    .media_bt{
+      width:  150px;
+    }
+    .baner_content button{
+      margin-bottom: 10px;
+    }
 
 }
