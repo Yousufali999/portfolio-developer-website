@@ -217,6 +217,7 @@ footer input[type="text"], input[type="email"]{
 
 }
 textarea{
+   width: 100%;
    font-size: 22px;
    background-color: white;
    border-radius: 5px;
@@ -283,6 +284,13 @@ textarea{
     .baner_content button{
       margin-bottom: 10px;
     }
-    
-
+   nav,.baner{
+      margin: 20px;
+      align-items:start;
+      /* border: 2px solid red; */
+   }
+   ul{
+      padding: 0;
+   }
 }
+ 
