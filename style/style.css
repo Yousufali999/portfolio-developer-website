@@ -232,7 +232,10 @@ textarea{
 
 @media screen and (max-width: 576px) { 
    /* skill-style */
-   .skills{
+   .skills,
+   nav,
+   nav ul,
+   .baner{
       flex-direction: column;
       align-items: center;
     }
@@ -254,5 +257,19 @@ textarea{
     footer input[type="text"], input[type="email"],textarea{
       width: calc(100% - 20px);
     }
-    
+    /* about-content */
+    .about-content{
+      padding: 0 20px;
+    }
+    .item-title {
+      flex-direction: column;
+    }
+    /* header media qurie  style  */
+    .header_section{
+      background-image: none;
+    }
+    .banner-img {
+      width: 100%;
+    }
+
 }
