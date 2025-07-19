@@ -212,6 +212,7 @@ footer input[type="text"], input[type="email"]{
    display: block;
    width: 100%;
    border: none;
+   padding: 0 0 0 20px;
    margin-bottom: 20px;
 
 }
@@ -264,6 +265,8 @@ textarea{
     .item-title {
       flex-direction: column;
     }
+
+
     /* header media qurie  style  */
     .header_section{
       background-image: none;
@@ -280,5 +283,6 @@ textarea{
     .baner_content button{
       margin-bottom: 10px;
     }
+    
 
 }
